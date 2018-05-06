@@ -14,6 +14,10 @@ function divide(a, b) {
   return a / b
 }
 
+function inc(n) {
+  
+}
+
 function makeInt(n){
   if (typeof n === 'string' || typeof n === 'number') 
   {
