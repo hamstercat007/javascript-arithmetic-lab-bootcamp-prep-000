@@ -4,7 +4,7 @@ function add(a, b){
 
 
 
-function makeInt(n) {
+function makeInt(n){
   if (typeof n === 'string' || typeof n === 'number') 
   {
     return parseInt(n, 10)
