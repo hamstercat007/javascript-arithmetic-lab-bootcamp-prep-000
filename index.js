@@ -18,6 +18,10 @@ function inc(n) {
   return n += 1
 }
 
+function dec(n) {
+  return n -= 1
+}
+
 function makeInt(n){
   if (typeof n === 'string' || typeof n === 'number') 
   {
