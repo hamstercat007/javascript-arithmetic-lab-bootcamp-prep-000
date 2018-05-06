@@ -10,6 +10,10 @@ function multiply(a, b) {
   return a * b
 }
 
+function divide(a, b) {
+  return a / b
+}
+
 function makeInt(n){
   if (typeof n === 'string' || typeof n === 'number') 
   {
