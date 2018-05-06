@@ -3,7 +3,7 @@ function makeInt(n) {
   {
     return parseInt(n, 10)
   }
-  if (isNaN(n))
+  else
   {
    return "returns NaN as appropriate"
    }
