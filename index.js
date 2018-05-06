@@ -6,5 +6,5 @@ function makeInt(n) {
 }
 
 function preserveDecimal(n) {
-  if ()
+  return parseFloat(n)
 }
